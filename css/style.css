@@ -2516,7 +2516,7 @@ body::after {
   color: rgb(255, 255, 255);
 }
 
-
+/* Rules for using icons as white on a dark background. */
 
 .timer-title {
   margin-bottom: 0.5rem;
@@ -3304,7 +3304,7 @@ body::after {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   line-height: 1em;
-  display: none;
+  display: none !important;
 }
 
 .column-footer__stacks.open .stacks-menu__options {
@@ -3383,7 +3383,7 @@ body::after {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   line-height: 1em;
-  display: none;
+  display: none !important;
 }
 
 .join-footer__title {
@@ -3960,7 +3960,7 @@ body::after {
 .menu-sellers__title {
   font-weight: 600;
   font-size: 1.5rem;
-  line-height: 1.75;
+  line-height: 0.75;
   color: #777E91;
 }
 
@@ -4640,7 +4640,7 @@ body::after {
   .stacks-menu__showmore {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: flex !important;
   }
 
   .column-footer__stacks.open .stacks-menu__options {
@@ -4675,7 +4675,7 @@ body::after {
   .info-menu__showmore {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: flex !important;
   }
 }
 
