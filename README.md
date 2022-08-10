@@ -11,3 +11,5 @@ Theme change, popup, tabs
 Showmore-module, timer, custom video player.
 
 Adaptive images, video, interactive elements.
+
+Form validation.
