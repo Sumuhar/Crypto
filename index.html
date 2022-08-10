@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Crypto</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	
+	<link rel="stylesheet" href="css/style.min.css?_v=20220810173200">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons&_v=20220810173200" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div id="Wallet" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close material-icons"><span>close</span></button>
+					<div class="popup__text">
+						<div class="wallet-popup__body">
+							<div class="wallet-popup__content">
+								<div class="wallet-popup__wallets wallets">
+									<ul class="wallets__items">
+										<li>
+											<a href="https://www.binance.com/" target="_blank" class="wallets__item">
+												<div class="wallets__logo material-icons md-light"><span>account_balance_wallet</span></div>
+												<div class="wallets__name"><span>Binance</span></div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="wallets__item">
+												<div class="wallets__logo material-icons md-light"><span>account_balance_wallet</span></div>
+												<div class="wallets__name"><span>Coinbase</span></div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="wallets__item">
+												<div class="wallets__logo material-icons md-light"><span>account_balance_wallet</span></div>
+												<div class="wallets__name"><span>Crypto.com</span></div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="wallets__item">
+												<div class="wallets__logo material-icons md-light"><span>account_balance_wallet</span></div>
+												<div class="wallets__name"><span>Huobi</span></div>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="wallet-popup__help-block">
+									<div class="wallet-popup__button-help">
+										<button type="submit" class="button button-blue">Need Help?</button>
+									</div>
+								</div>
+							</div>
+							<div class="wallet-popup__block-qrcode qr">
+								<div class="qr__body">
+									<div class="qr__image">
+										<img src="img/qr.svg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture>
+						<span>crypter</span>
+					</div>
+					<div class="header__menu menu">
+
+						<nav class="menu__body light">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="link menu__link">Discover</a></li>
+								<li class="menu__item"><a href="#" class="link menu__link"><span>How it work</span></a></li>
+
+							</ul>
+							<div class="menu__swith-mode"><button type="submit" class="button"><span class="material-icons md-light" data-toggle="toggle_on">toggle_off</span></button></div>
+							<div class="menu__search">
+								<input type="text" placeholder="Search" data-placeholder-nohide class="input header-input">
+								<button type="submit" class="button  search-btn"><span class="material-icons md-light md-inactive">search</span></button>
+							</div>
+						</nav>
+
+					</div>
+
+					<div class="header__actions actions-header" data-da=".menu__body,570,2">
+						<div class="actions-header__notification">
+							<a href="#" class="notification__icon notification__icon-active"><span class="material-icons md-light md-inactive">notifications</span></a>
+						</div>
+						<button type="submit" class="button button-blue actions-header__button">Upload</button>
+						<button type="submit" data-popup="#connectWallet" class="button button-white actions-header__wallet"><span>Connect Wallet</span></button>
+					</div>
+					<div class="icon-menu header__menu-burger"><span class="material-icons md-light burger-menu" data-toggle="close">menu</span></div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="main-title">
+				<div class="main-title__subtitle">
+					<span>Create, explore, & collect digital art NFTs.</span>
+				</div>
+				<div class="main-title__title">
+					<h1>The new creative economy.</h1>
+				</div>
+				<div class="main-title__block-button">
+					<button type="submit" class="button button-white main-title__button">Start your search</button>
+				</div>
+			</section>
+
+
+			<section class="creators">
+				<div class="creators__container">
+					<div class="creators-main">
+						<div class="block-video">
+							<video id="my_video_1" class="video-js vjs-default-skin" controls preload="none" poster="img/creators/video-posters/01.png" data-setup='{ "playbackRates": [1, 1.5, 2] }'>
+								<source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+
+							</video>
+						</div>
+						<div class="block-slider">
+							
+							<div class="bid__slider swiper">
+								
+								<div class="bid__wrapper swiper-wrapper">
+									
+									<!---->
+									<div class="bid__slide swiper-slide">
+										<div class="text-slider__body body-slider">
+											<div class="body-slider__title">
+												<h2>NFT Future</h2>
+											</div>
+											<div class="body-slider__card card">
+												<div class="card__personal">
+													<div class="card__item">
+														<div class="card__logo">
+															<picture><source srcset="img/faces/01.webp" type="image/webp"><img src="img/faces/01.png" alt="face"></picture>
+														</div>
+														<div class="card__text">
+															<p class="card__text_1">Creator</p>
+															<p class="card__text_2">Enrico Cole</p>
+														</div>
+													</div>
+													<div class="card__item">
+														<div class="card__logo logo-eth">
+															<span class="material-icons md-white">
+																crop_din
+															</span>
+														</div>
+														<div class="card__text">
+															<p class="card__text_1">Instant price</p>
+															<p class="card__text_2">3.5 ETH</p>
+														</div>
+													</div>
+												</div>
+												<div class="card__bids">
+													<div class="card__bids-text">
+														<h4>Current Bid</h4>
+														<p class="card__bids-text_1">1.00 ETH</p>
+														<p class="card__bids-text_2">$3618.36</p>
+													</div>
+													<div class="card__bids-timer">
+														<div class="timer-title">
+															<span>Auction ending in</span>
+														</div>
+														<div class="timer-timer">
+															<div class="timer timer-1">
+																<div class="timer__items">
+																	<div class="timer__item timer__days">00</div>
+																	<div class="timer__item timer__hours">00</div>
+																	<div class="timer__item timer__minutes">00</div>
+																	<div class="timer__item timer__seconds">00</div>
+																</div>
+																<div class="timer__result"></div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="card-buttons">
+													<button type="submit" class="button button-blue wide-button">Place a bid</button>
+													<button type="submit" class="button button-white wide-button">View Item</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!---->
+									<div class="bid__slide swiper-slide">
+										<div class="text-slider__body body-slider">
+											<div class="body-slider__title">
+												<h2>Tsunami</h2>
+											</div>
+											<div class="body-slider__card card">
+												<div class="card__personal">
+													<div class="card__item">
+														<div class="card__logo">
+															<picture><source srcset="img/faces/02.webp" type="image/webp"><img src="img/faces/02.png" alt="face"></picture>
+														</div>
+														<div class="card__text">
+															<p class="card__text_1">Creator</p>
+															<p class="card__text_2">John Wick</p>
+														</div>
+													</div>
+													<div class="card__item">
+														<div class="card__logo logo-eth">
+															<span class="material-icons md-white">
+																crop_din
+															</span>
+														</div>
+														<div class="card__text">
+															<p class="card__text_1">Instant price</p>
+															<p class="card__text_2">2.8 ETH</p>
+														</div>
+													</div>
+												</div>
+												<div class="card__bids">
+													<div class="card__bids-text">
+														<h4>Current Bid</h4>
+														<p class="card__bids-text_1">2.3 ETH</p>
+														<p class="card__bids-text_2">$8322,2</p>
+													</div>
+													<div class="card__bids-timer">
+														<div class="timer-title">
+															<span>Auction ending in</span>
+														</div>
+														<div class="timer-timer">
+															<div class="timer timer-2">
+																<div class="timer__items">
+																	<div class="timer__item timer__days">00</div>
+																	<div class="timer__item timer__hours">00</div>
+																	<div class="timer__item timer__minutes">00</div>
+																	<div class="timer__item timer__seconds">00</div>
+																</div>
+																<div class="timer__result"></div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="card-buttons">
+													<button type="submit" class="button button-blue wide-button">Place a bid</button>
+													<button type="submit" class="button button-white wide-button">View Item</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!---->
+									<div class="bid__slide swiper-slide">
+										<div class="text-slider__body body-slider">
+											<div class="body-slider__title">
+												<h2>Sunset</h2>
+											</div>
+											<div class="body-slider__card card">
+												<div class="card__personal">
+													<div class="card__item">
+														<div class="card__logo">
+															<picture><source srcset="img/faces/03.webp" type="image/webp"><img src="img/faces/03.jpg" alt="face"></picture>
+														</div>
+														<div class="card__text">
+															<p class="card__text_1">Creator</p>
+															<p class="card__text_2">Elon Musk</p>
+														</div>
+													</div>
+													<div class="card__item">
+														<div class="card__logo logo-eth">
+															<span class="material-icons md-white">
+																crop_din
+															</span>
+														</div>
+														<div class="card__text">
+															<p class="card__text_1">Instant price</p>
+															<p class="card__text_2">10 ETH</p>
+														</div>
+													</div>
+												</div>
+												<div class="card__bids">
+													<div class="card__bids-text">
+														<h4>Current Bid</h4>
+														<p class="card__bids-text_1">5.30 ETH</p>
+														<p class="card__bids-text_2">$19177,3</p>
+													</div>
+													<div class="card__bids-timer">
+														<div class="timer-title">
+															<span>Auction ending in</span>
+														</div>
+														<div class="timer-timer">
+															<div class="timer timer-3">
+																<div class="timer__items">
+																	<div class="timer__item timer__days">00</div>
+																	<div class="timer__item timer__hours">00</div>
+																	<div class="timer__item timer__minutes">00</div>
+																	<div class="timer__item timer__seconds">00</div>
+																</div>
+																<div class="timer__result"></div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="card-buttons">
+													<button type="submit" class="button button-blue wide-button">Place a bid</button>
+													<button type="submit" class="button button-white wide-button">View Item</button>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								
+								<div class="sider-buttons">
+									<div class="slider-button slider-button__1">
+										<button type="button" class="swiper-button-prev">
+											<span class="material-icons md-light">west</span>
+										</button>
+									</div>
+									<div class="slider-button slider-button__2">
+										<button type="button" class="swiper-button-next">
+											<span class="material-icons md-light">east</span>
+										</button>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="discover">
+				<div class="discover__container">
+					<div class="discover__tab">
+						<div data-tabs class="tab-discover">
+
+							<!--TABS-->
+							<div data-tabs-body class="tab-discover__content">
+								<!---->
+								<div class="tab-discover__body">
+									<div class="body-tab-discover">
+										<div class="body-tab-discover__content-image">
+											<div class="body-tab-discover__image-ibg">
+												<picture><source srcset="img/discover/1.webp" type="image/webp"><img src="img/discover/1.jpg" alt="image"></picture>
+											</div>
+										</div>
+
+										<div class="body-tab-discover__profile profile-discover">
+											<div class="profile-discover__body">
+												<div class="profile-discover__logo">
+													<div class="profile-discover__logo-big">
+														<picture><source srcset="img/faces/01.webp" type="image/webp"><img src="img/faces/01.png" alt=""></picture>
+													</div>
+													<div class="profile-discover__text">
+														<div class="profile-discover__text_title"><span>The future of ETH®</span></div>
+														<div class="profile-discover__text_subtitle"><span>18 in stock</span></div>
+													</div>
+												</div>
+												<div class="profile-discover__bid">
+													<div class="profile-discover__bid_highest"><span>Highest bid</span></div>
+													<div class="profile-discover__bid_eth"><span>1.125 ETH</span></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!---->
+								<div class="tab-discover__body">
+									<div class="body-tab-discover">
+										<div class="body-tab-discover__content-image">
+											<div class="body-tab-discover__image-ibg">
+												<picture><source srcset="img/discover/2.webp" type="image/webp"><img src="img/discover/2.jpg" alt="image"></picture>
+											</div>
+										</div>
+
+										<div class="body-tab-discover__profile profile-discover">
+											<div class="profile-discover__body">
+												<div class="profile-discover__logo">
+													<div class="profile-discover__logo-big">
+														<picture><source srcset="img/faces/02.webp" type="image/webp"><img src="img/faces/02.png" alt=""></picture>
+													</div>
+													<div class="profile-discover__text">
+														<div class="profile-discover__text_title"><span>The future of ETH®</span></div>
+														<div class="profile-discover__text_subtitle"><span>18 in stock</span></div>
+													</div>
+												</div>
+												<div class="profile-discover__bid">
+													<div class="profile-discover__bid_highest"><span>Highest bid</span></div>
+													<div class="profile-discover__bid_eth"><span>1.125 ETH</span></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!---->
+								<div class="tab-discover__body">
+									<div class="body-tab-discover">
+										<div class="body-tab-discover__content-image">
+											<div class="body-tab-discover__image-ibg">
+												<picture><source srcset="img/discover/3.webp" type="image/webp"><img src="img/discover/3.jpg" alt="image"></picture>
+											</div>
+										</div>
+
+										<div class="body-tab-discover__profile profile-discover">
+											<div class="profile-discover__body">
+												<div class="profile-discover__logo">
+													<div class="profile-discover__logo-big">
+														<picture><source srcset="img/faces/03.webp" type="image/webp"><img src="img/faces/03.jpg" alt=""></picture>
+													</div>
+													<div class="profile-discover__text">
+														<div class="profile-discover__text_title"><span>The future of ETH®</span></div>
+														<div class="profile-discover__text_subtitle"><span>18 in stock</span></div>
+													</div>
+												</div>
+												<div class="profile-discover__bid">
+													<div class="profile-discover__bid_highest"><span>Highest bid</span></div>
+													<div class="profile-discover__bid_eth"><span>1.125 ETH</span></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!--NAV-->
+							<nav data-tabs-titles class="tab-discover__navigation">
+								<!--1-->
+								<div class="tab-discover__title _tab-active">
+									<div class="discover-nav">
+										<div class="discover-nav__block-image">
+											<div class="discover-nav__image-ibg">
+												<picture><source srcset="img/discover/1.webp" type="image/webp"><img src="img/discover/1.jpg" alt="image"></picture>
+											</div>
+										</div>
+										<div class="discover-nav__block-content">
+											<div class="discover-nav__block-content_title">
+												<span>ETH never die</span>
+											</div>
+											<div class="discover-nav__block-content_profile profile-nav">
+												<div class="profile-nav__logo-small">
+													<picture><source srcset="img/faces/01.webp" type="image/webp"><img src="img/faces/01.png" alt="face"></picture>
+												</div>
+												<div class="profile-nav__bid-eth profile-discover__bid_eth">
+													<span>1.125 ETH</span>
+												</div>
+												<div class="profile-nav__quantity">
+													<span>1 of 12</span>
+												</div>
+											</div>
+											<div class="discover-nav__block-content_button">
+												<button type="submit" class="button button-white button-white__bluehover">Place a bid</button>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<!--2-->
+								<div class="tab-discover__title">
+									<div class="discover-nav">
+										<div class="discover-nav__block-image">
+											<div class="discover-nav__image-ibg">
+												<picture><source srcset="img/discover/2.webp" type="image/webp"><img src="img/discover/2.jpg" alt="image"></picture>
+											</div>
+										</div>
+										<div class="discover-nav__block-content">
+											<div class="discover-nav__block-content_title">
+												<span>ETH never die</span>
+											</div>
+											<div class="discover-nav__block-content_profile profile-nav">
+												<div class="profile-nav__logo-small">
+													<picture><source srcset="img/faces/02.webp" type="image/webp"><img src="img/faces/02.png" alt="face"></picture>
+												</div>
+												<div class="profile-nav__bid-eth profile-discover__bid_eth">
+													<span>1.125 ETH</span>
+												</div>
+												<div class="profile-nav__quantity">
+													<span>1 of 12</span>
+												</div>
+											</div>
+											<div class="discover-nav__block-content_button">
+												<button type="submit" class="button button-white button-white__bluehover">Place a bid</button>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<!--3-->
+								<div class="tab-discover__title">
+									<div class="discover-nav">
+										<div class="discover-nav__block-image">
+											<div class="discover-nav__image-ibg">
+												<picture><source srcset="img/discover/3.webp" type="image/webp"><img src="img/discover/3.jpg" alt="image"></picture>
+											</div>
+										</div>
+										<div class="discover-nav__block-content">
+											<div class="discover-nav__block-content_title">
+												<span>ETH never die</span>
+											</div>
+											<div class="discover-nav__block-content_profile profile-nav">
+												<div class="profile-nav__logo-small">
+													<picture><source srcset="img/faces/03.webp" type="image/webp"><img src="img/faces/03.jpg" alt="face"></picture>
+												</div>
+												<div class="profile-nav__bid-eth profile-discover__bid_eth">
+													<span>1.125 ETH</span>
+												</div>
+												<div class="profile-nav__quantity">
+													<span>1 of 12</span>
+												</div>
+											</div>
+											<div class="discover-nav__block-content_button">
+												<button type="submit" class="button button-white button-white__bluehover">Place a bid</button>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</nav>
+
+						</div>
+					</div>
+					<div class="discover__creators">
+						<div class="creators-discover__content">
+							<div class="creators-discover__title">
+								<span>Latest upload from creators 🔥</span>
+							</div>
+							<div class="creators-discover__items">
+								<a href="#" class="creators-discover__item">
+									<div class="creators-discover__profile">
+										<div class="creators-discover__logo-small">
+											<picture><source srcset="img/faces/01.webp" type="image/webp"><img src="img/faces/01.png" alt="face"></picture>
+										</div>
+										<div class="creators-discover__text">
+											<div class="creators-discover__text_title"><span>Payton Harris</span></div>
+											<div class="creators-discover__text_subtitle">2.343<span> ETH</span></div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="creators-discover__item">
+									<div class="creators-discover__profile">
+										<div class="creators-discover__logo-small">
+											<picture><source srcset="img/faces/04.webp" type="image/webp"><img src="img/faces/04.jpg" alt="face"></picture>
+										</div>
+										<div class="creators-discover__text">
+											<div class="creators-discover__text_title"><span>Johnny Sins</span></div>
+											<div class="creators-discover__text_subtitle">0.345<span> ETH</span></div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="creators-discover__item">
+									<div class="creators-discover__profile">
+										<div class="creators-discover__logo-small">
+											<picture><source srcset="img/faces/03.webp" type="image/webp"><img src="img/faces/03.jpg" alt="face"></picture>
+										</div>
+										<div class="creators-discover__text">
+											<div class="creators-discover__text_title"><span>Elon Musk</span></div>
+											<div class="creators-discover__text_subtitle">1.45<span> ETH</span></div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="creators-discover__item">
+									<div class="creators-discover__profile">
+										<div class="creators-discover__logo-small">
+											<picture><source srcset="img/faces/02.webp" type="image/webp"><img src="img/faces/02.png" alt="face"></picture>
+										</div>
+										<div class="creators-discover__text">
+											<div class="creators-discover__text_title"><span>John Deere</span></div>
+											<div class="creators-discover__text_subtitle">2.555 <span>ETH</span></div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="creators-discover__button">
+								<button type="submit" class="button button-white">Discover more</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="sellers lightlight">
+				<div class="sellers__container">
+					<div class="menu-sellers__title"><span>Popular</span></div>
+					<div class="sellers__menu menu-sellers">
+						<div class="menu-sellers__button">
+							<span class="menu-sellers__button_text">Sellers</span>
+							<span class="material-icons showmore">expand_more</span>
+
+						</div>
+						<ul class="menu-sellers__options">
+							<li class="menu-sellers__option"><span id="menu-slider-1" class="menu-sellers__option_text">Sellers</span></li>
+							<li class="menu-sellers__option"><span id="menu-slider-2" class="menu-sellers__option_text">Creators</span></li>
+							<li class="menu-sellers__option"><span id="menu-slider-3" class="menu-sellers__option_text">Top Rated</span></li>
+						</ul>
+
+					</div>
+					<div class="sellers__slider">
+						<div class="slider-sellers">
+							
+							<div class="slider-sellers__slider swiper">
+								
+								<div class="slider-sellers__wrapper swiper-wrapper">
+									
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-sellers">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon card-sellers__icon_blue"><span class="material-icons icon-sellers icon-sellers_icon ">emoji_events</span><span class="icon-sellers_text">#1</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/01.webp" type="image/webp"><img src="img/faces/01.png" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>Payton Harris</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">2.343<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-sellers">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon card-sellers__icon_green"><span class="material-icons icon-sellers icon-sellers_icon ">stars</span><span class="icon-sellers_text">#6</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/06.webp" type="image/webp"><img src="img/faces/06.jpg" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title">Arnold Alois Schwarzenegger</div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">1.234<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-sellers">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon card-sellers__icon_purple"><span class="material-icons icon-sellers icon-sellers_icon ">coronavirus</span><span class="icon-sellers_text">#2</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/02.webp" type="image/webp"><img src="img/faces/02.png" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>John Deere</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">2.555<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-sellers">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon card-sellers__icon_black"><span class="material-icons icon-sellers icon-sellers_icon ">groups</span><span class="icon-sellers_text">#3</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/03.webp" type="image/webp"><img src="img/faces/03.jpg" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>Elon Musk</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">1.45<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-sellers">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon card-sellers__icon_red"><span class="material-icons icon-sellers icon-sellers_icon ">cyclone</span><span class="icon-sellers_text">#4</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/04.webp" type="image/webp"><img src="img/faces/04.jpg" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>Johnny Sins</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">0.345<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-sellers">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon card-sellers__icon_yellow"><span class="material-icons icon-sellers icon-sellers_icon ">blind</span><span class="icon-sellers_text">#5</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/05.webp" type="image/webp"><img src="img/faces/05.png" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>Greta Thunberg</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">6.343<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+								
+								<div class="slider-sellers__buttons">
+									<div class="slider-button  section-sellers-button__prev">
+										<button type="button" class="swiper-button-prev">
+											<span class="material-icons md-light">west</span>
+										</button>
+									</div>
+									<div class="slider-button  section-sellers-button__next">
+										<button type="button" class="swiper-button-next">
+											<span class="material-icons md-light">east</span>
+										</button>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="slider-creators slider-hidden">
+							
+							<div class="slider-creators__slider swiper">
+								
+								<div class="slider-sellers__wrapper swiper-wrapper">
+									
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-creators">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon"><span class="material-icons icon-sellers icon-sellers_icon ">emoji_events</span><span class="icon-sellers_text">#1</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/01.webp" type="image/webp"><img src="img/faces/01.png" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>Payton Harris</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">2.343<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-creators">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon"><span class="material-icons icon-sellers icon-sellers_icon ">emoji_events</span><span class="icon-sellers_text">#6</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/06.webp" type="image/webp"><img src="img/faces/06.jpg" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title">Arnold Alois Schwarzenegger</div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">1.234<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-creators">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon"><span class="material-icons icon-sellers icon-sellers_icon ">emoji_events</span><span class="icon-sellers_text">#2</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/02.webp" type="image/webp"><img src="img/faces/02.png" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>John Deere</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">2.555<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-creators">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon"><span class="material-icons icon-sellers icon-sellers_icon ">emoji_events</span><span class="icon-sellers_text">#3</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/03.webp" type="image/webp"><img src="img/faces/03.jpg" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>Elon Musk</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">1.45<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-creators">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon"><span class="material-icons icon-sellers icon-sellers_icon ">emoji_events</span><span class="icon-sellers_text">#4</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/04.webp" type="image/webp"><img src="img/faces/04.jpg" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>Johnny Sins</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">0.345<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-creators">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon"><span class="material-icons icon-sellers icon-sellers_icon ">emoji_events</span><span class="icon-sellers_text">#5</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/05.webp" type="image/webp"><img src="img/faces/05.png" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>Greta Thunberg</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">6.343<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+								
+								<div class="slider-sellers__buttons">
+									<div class="slider-button  section-sellers-button__prev">
+										<button type="button" class="swiper-button-prev">
+											<span class="material-icons md-light">west</span>
+										</button>
+									</div>
+									<div class="slider-button  section-sellers-button__next">
+										<button type="button" class="swiper-button-next">
+											<span class="material-icons md-light">east</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider-top-rated slider-hidden">
+							
+							<div class="slider-top-rated__slider swiper">
+								
+								<div class="slider-sellers__wrapper swiper-wrapper">
+									
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-top-rated">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon"><span class="material-icons icon-sellers icon-sellers_icon ">emoji_events</span><span class="icon-sellers_text">#1</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/01.webp" type="image/webp"><img src="img/faces/01.png" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>Payton Harris</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">2.343<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-top-rated">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon"><span class="material-icons icon-sellers icon-sellers_icon ">emoji_events</span><span class="icon-sellers_text">#6</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/06.webp" type="image/webp"><img src="img/faces/06.jpg" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title">Arnold Alois Schwarzenegger</div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">1.234<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-top-rated">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon"><span class="material-icons icon-sellers icon-sellers_icon ">emoji_events</span><span class="icon-sellers_text">#2</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/02.webp" type="image/webp"><img src="img/faces/02.png" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>John Deere</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">2.555<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-top-rated">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon"><span class="material-icons icon-sellers icon-sellers_icon ">emoji_events</span><span class="icon-sellers_text">#3</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/03.webp" type="image/webp"><img src="img/faces/03.jpg" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>Elon Musk</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">1.45<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-top-rated">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon"><span class="material-icons icon-sellers icon-sellers_icon ">emoji_events</span><span class="icon-sellers_text">#4</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/04.webp" type="image/webp"><img src="img/faces/04.jpg" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>Johnny Sins</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">0.345<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider-sellers__slide swiper-slide">
+										<div class="slider-sellers__card card-top-rated">
+											<div class="card-sellers__achievement">
+												<div class="card-sellers__place">
+													<div class="card-sellers__icon"><span class="material-icons icon-sellers icon-sellers_icon ">emoji_events</span><span class="icon-sellers_text">#5</span></div>
+												</div>
+												<a href="#" class="card-sellers__moreinfo">
+													<span class="material-icons icon-sellers">library_add</span>
+												</a>
+												<a href="#" class="card-sellers__link">
+													<span class="material-icons icon-sellers">north_east</span>
+												</a>
+											</div>
+											<div class="card-sellers__avatar">
+												<div class="creators-discover__profile card-sellers__profile">
+													<div class="creators-discover__logo-small">
+														<picture><source srcset="img/faces/05.webp" type="image/webp"><img src="img/faces/05.png" alt="face"></picture>
+													</div>
+													<div class="creators-discover__text card-sellers__text">
+														<div class="creators-discover__text_title card-sellers__text_title"><span>Greta Thunberg</span></div>
+														<div class="creators-discover__text_subtitle card-sellers____text_subtitle">6.343<span> ETH</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+								
+								<div class="slider-sellers__buttons">
+									<div class="slider-button  section-sellers-button__prev">
+										<button type="button" class="swiper-button-prev">
+											<span class="material-icons md-light">west</span>
+										</button>
+									</div>
+									<div class="slider-button  section-sellers-button__next">
+										<button type="button" class="swiper-button-next">
+											<span class="material-icons md-light">east</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="final">
+				<div class="final__container">
+					<div class="final__body">
+						<div class="final__text">
+							<div class="final__text-subtitle"><span>Save your time with Stacks</span></div>
+							<div class="final__text-title">
+								<h2>Earn free crypto with Crypter</h2>
+							</div>
+							<div class="final__text-descr">
+								<span>A creative agency that lead and inspire</span>
+							</div>
+							<div class="final__buttons buttons-final">
+								<div class="buttons-final__earn">
+									<button type="submit" class="button button-blue">Earn Now</button>
+								</div>
+								<div class="buttons-final__discover">
+									<button type="submit" class="button button-white">Discover more</button>
+								</div>
+							</div>
+						</div>
+						<div class="final__imagebg">
+							<div class="final__image-ibg"><picture><source srcset="img/final/coins.webp" type="image/webp"><img src="img/final/coins.png" alt="image"></picture></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer lightlight">
+			<div class="footer__container">
+				<div class="footer__main">
+					<div class="footer__columns column-footer">
+
+						<div class="column-footer__logo logo-footer">
+							<div class="logo-footer__block-logo">
+								<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo footer"></picture>
+								<span>Crypter</span>
+							</div>
+							<div class="logo-footer__block-title">
+								<h3>The New Creative Economy.</h3>
+							</div>
+						</div>
+						<div class="column-footer__stacks stacks-menu">
+							<div class="stacks-menu__button">
+								<span class="stacks-menu__button-text">Stacks</span>
+								<span class="material-icons stacks-menu__showmore">expand_more</span>
+							</div>
+							<ul class="stacks-menu__options">
+								<li class="stacks-menu__option"><a href="#" class="stacks-menu__text">Discover</a></li>
+								<li class="stacks-menu__option"><a href="#" class="stacks-menu__text">Connect wallet</a></li>
+								<li class="stacks-menu__option"><a href="#" class="stacks-menu__text">Create item</a></li>
+							</ul>
+						</div>
+						<div class="column-footer__info info-menu">
+							<div class="info-menu__button">
+								<span class="info-menu__button-text">Info</span>
+								<span class="material-icons info-menu__showmore">expand_more</span>
+							</div>
+							<ul class="info-menu__options">
+								<li class="info-menu__option"><a href="#" class="info-menu__text">Download</a></li>
+								<li class="info-menu__option"><a href="#" class="info-menu__text">Demos</a></li>
+								<li class="info-menu__option"><a href="#" class="info-menu__text">Support</a></li>
+							</ul>
+						</div>
+						<div class="column-footer__join join-footer">
+							<div class="join-footer__title">
+								<span>Join Newsletter</span>
+							</div>
+							<div class="join-footer__description">
+								<span>Subscribe our newsletter to get more free design course and resource</span>
+							</div>
+							<div class="join-footer__sendmail">
+								<input autocomplete="off" type="email" name="form[]" data-required="email" data-validate data-error="Incorrect email!" placeholder="Enter your email" class="input join-footer__input">
+								<div class="join-footer__button">
+									<button type="submit" class="button join-footer__send"><span class="material-icons join-footer__send-icon">send</span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copyright">
+					<div class="copyright__text"><span>Copyright © 2021 UI8 LLC. All rights reserved</span></div>
+					<div class="copyright__cookies">
+						We use cookies for better service. <a href="#">Accept</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					Text
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="connectWallet" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close material-icons"><span>close</span></button>
+				<div class="popup__text">
+					<div class="wallet-popup__body">
+						<div class="wallet-popup__content">
+							<div class="wallet-popup__wallets wallets">
+								<ul class="wallets__items">
+									<li>
+										<a href="https://www.binance.com/" target="_blank" class="wallets__item">
+											<div class="wallets__logo material-icons md-light"><span>account_balance_wallet</span></div>
+											<div class="wallets__name"><span>Binance</span></div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="wallets__item">
+											<div class="wallets__logo material-icons md-light"><span>account_balance_wallet</span></div>
+											<div class="wallets__name"><span>Coinbase</span></div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="wallets__item">
+											<div class="wallets__logo material-icons md-light"><span>account_balance_wallet</span></div>
+											<div class="wallets__name"><span>Crypto.com</span></div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="wallets__item">
+											<div class="wallets__logo material-icons md-light"><span>account_balance_wallet</span></div>
+											<div class="wallets__name"><span>Huobi</span></div>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="wallet-popup__help-block">
+								<div class="wallet-popup__button-help">
+									<button type="submit" class="button button-blue">Need Help?</button>
+								</div>
+							</div>
+						</div>
+						<div class="wallet-popup__block-qrcode qr">
+							<div class="qr__body">
+								<div class="qr__image">
+									<img src="img/qr.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="js/app.min.js?_v=20220810173200"></script>
+
+
+	<script src="https://vjs.zencdn.net/7.20.1/video.min.js?_v=20220810173200"></script>
+	
+
+
+
+
+</body>
+
+</html>
