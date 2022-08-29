@@ -1,5 +1,3 @@
-First pet project!
-
 https://sumuhar.github.io/Crypto/
 
 Full adaptive and responsive to 320 px
